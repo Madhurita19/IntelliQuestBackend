@@ -1,0 +1,17 @@
+# Build
+/target/
+/bin/
+/src/bin/
+
+# IDE
+.metadata/
+.settings/
+.classpath
+.project
+
+# Uploads
+/uploads/
+
+# OS junk
+.DS_Store
+Thumbs.db
