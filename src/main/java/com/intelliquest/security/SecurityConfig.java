@@ -55,9 +55,6 @@ public class SecurityConfig {
                 .successHandler(oAuth2LoginSuccessHandler)
                 
             )
-            .formLogin(login -> login
-                .loginPage("/login").permitAll()
-            )
             .httpBasic(basic -> basic.disable())
             .addFilterBefore(jwtAuthenticationFilter, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.class);
 
