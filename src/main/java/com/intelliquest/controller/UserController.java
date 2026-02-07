@@ -19,7 +19,7 @@ import java.nio.file.Paths;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
+
 @RestController
 @RequestMapping("/auth/users")
 @RequiredArgsConstructor
